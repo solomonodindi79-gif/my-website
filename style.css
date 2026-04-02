@@ -1,0 +1,81 @@
+/* Reset default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root styling */
+html, body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  height: 100%;
+}
+
+/* Header / Navigation bar */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Logo inside nav */
+nav .logo {
+  height: 50px;
+  margin-right: 15px;
+}
+
+/* Navigation links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #eaeaea;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Extension section (optional extra description) */
+.extension {
+  padding: 40px 20px;
+  background-color: #fff;
+  border-top: 2px solid #ddd;
+}
+
+.extension h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.extension p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
